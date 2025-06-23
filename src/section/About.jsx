@@ -23,10 +23,9 @@ const About = () => {
             <img  src="assets/grid1.png" alt="grid-1" className="zoom-image w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Priyanshu Negi</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              As a fresher, I am building my skills in both frontend and backend development to create dynamic and responsive websites.
               </p> 
             </div>
           </div>
@@ -64,7 +63,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Rjieka, Croatia and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in Uttarakhand,India and open to remote work worldwide.</p>
              <a href="#contact"> <Button name="Contact Me"  isBeam containerClass="w-full mt-10" />
             </a></div>
           </div>
