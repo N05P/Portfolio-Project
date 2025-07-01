@@ -23,11 +23,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'Work-Studio',
+      desc: 'Work-Studio is a revolutionary front-end design platform that transforms the way creative interfaces are built. With advanced animation-powered features like smooth scroll and dynamic transitions, it allows designers to craft immersive experiences using only HTML, CSS, JavaScript, GSAP, and Locomotive.js.',
       subdesc:
         'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+      href: 'https://toogoodp.netlify.app/',
       texture: '/textures/project/project1.mp4',
       logo: 'assets/project-logo1.png',
       logoStyle: {
@@ -40,28 +40,28 @@ export const navLinks = [
         {
           id: 1,
           name: 'React.js',
-          path: 'assets/react.svg',
+          path: 'assets/locomotive.jpg',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/gsap.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: 'assets/typescript.png',
+          path: 'assets/javascript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: 'assets/framer.png',
+          path: 'assets/css.png',
         },
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Too Good -  Clone App',
+      desc: 'Too Good - Clone App is a revolutionary front-end replica that reimagines the experience of sustainable food sharing platforms. With advanced animation-powered features and smooth scrolling interactions, it allows developers to simulate real-world app behavior using modern tools like HTML, CSS, JavaScript, GSAP, and Locomotive.js. Designed purely as a front-end project, it captures the essence of the original app with stunning transitions and responsive layouts.',
       subdesc:
         'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
@@ -77,22 +77,22 @@ export const navLinks = [
         {
           id: 1,
           name: 'React.js',
-          path: 'assets/react.svg',
+          path: 'assets/locomotive.jpg',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/gsap.png',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: 'assets/typescript.png',
+          path: 'assets/javascript.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: 'assets/framer.png',
+          path: 'assets/css.png',
         },
       ],
     },
