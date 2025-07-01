@@ -23,11 +23,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Work-Studio',
-      desc: 'Work-Studio is a revolutionary front-end design platform that transforms the way creative interfaces are built. With advanced animation-powered features like smooth scroll and dynamic transitions, it allows designers to craft immersive experiences using only HTML, CSS, JavaScript, GSAP, and Locomotive.js.',
+      title: 'Duo-Studio',
+      desc: 'Duo-Studio is a revolutionary front-end design platform that transforms the way creative interfaces are built. With advanced animation-powered features like smooth scroll and dynamic transitions, it allows designers to craft immersive experiences using only HTML, CSS, JavaScript, GSAP, and Locomotive.js.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://toogoodp.netlify.app/',
+        '',
+      href: 'https://duostudiop.netlify.app/',
       texture: '/textures/project/project1.mp4',
       logo: 'assets/project-logo1.png',
       logoStyle: {
@@ -64,7 +64,7 @@ export const navLinks = [
       desc: 'Too Good - Clone App is a revolutionary front-end replica that reimagines the experience of sustainable food sharing platforms. With advanced animation-powered features and smooth scrolling interactions, it allows developers to simulate real-world app behavior using modern tools like HTML, CSS, JavaScript, GSAP, and Locomotive.js. Designed purely as a front-end project, it captures the essence of the original app with stunning transitions and responsive layouts.',
       subdesc:
         '',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+      href: 'https://toogoodp.netlify.app/',
       texture: '/textures/project/project2.mp4',
       logo: 'assets/project-logo2.png',
       logoStyle: {
@@ -97,10 +97,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'ZonKart-Online Market',
+      desc: 'ZonKart is an online shopping platform built with React.js, Tailwind CSS, Framer Motion, React Router, Redux, and Google Firebase, offering a fast, secure, and dynamic user experience.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'ZonKart allows users to explore products, manage their cart, and place orders easily. It uses Firebase for authentication and Framer Motion adds smooth animations for a modern feel.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
       logo: 'assets/project-logo3.png',
@@ -126,7 +126,7 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: 'assets/typescript.png',
+          path: 'assets/javascript.png',
         },
         {
           id: 4,
