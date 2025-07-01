@@ -63,7 +63,7 @@ export const navLinks = [
       title: 'Too Good -  Clone App',
       desc: 'Too Good - Clone App is a revolutionary front-end replica that reimagines the experience of sustainable food sharing platforms. With advanced animation-powered features and smooth scrolling interactions, it allows developers to simulate real-world app behavior using modern tools like HTML, CSS, JavaScript, GSAP, and Locomotive.js. Designed purely as a front-end project, it captures the essence of the original app with stunning transitions and responsive layouts.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        '',
       href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
       texture: '/textures/project/project2.mp4',
       logo: 'assets/project-logo2.png',
