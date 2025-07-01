@@ -18,16 +18,16 @@ const Footer = () => {
         </a>
 
         <a
-          href="https://twitter.com/your-username"
+          href="https://www.linkedin.com/in/priyanshu-negi-276376339/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
         >
-          <img src="assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
+          <img src="assets/linked.svg" alt="twitter" className="w-1/2 h-1/2" />
         </a>
 
         <a
-          href="https://instagram.com/N05P"
+          href="https://www.instagram.com/05np20/"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
