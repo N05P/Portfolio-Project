@@ -29,11 +29,11 @@ export const navLinks = [
         '',
       href: 'https://duostudiop.netlify.app/',
       texture: '/textures/project/project1.mp4',
-      logo: 'assets/project-logo1.png',
+      logo: 'assets/project-logo1.svg',
       logoStyle: {
-        backgroundColor: '#2A1816',
+        backgroundColor: '#000',
         border: '0.2px solid #36201D',
-        boxShadow: '0px 0px 60px 0px #AA3C304D',
+        boxShadow: '0px 0px 20px 0px #fff',
       },
       spotlight: 'assets/spotlight1.png',
       tags: [
@@ -66,9 +66,9 @@ export const navLinks = [
         '',
       href: 'https://toogoodp.netlify.app/',
       texture: '/textures/project/project2.mp4',
-      logo: 'assets/project-logo2.png',
+      logo: 'assets/project-logo2.svg',
       logoStyle: {
-        backgroundColor: '#13202F',
+        backgroundColor: '#FFF',
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
