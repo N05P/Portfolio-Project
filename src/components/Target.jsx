@@ -1,28 +1,74 @@
+import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
-import React from 'react'
-import { Mesh } from 'three';
-import { useRef } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+import { useFrame } from '@react-three/fiber'
 
-const Target = (props) => {
+export default function Target(props) {
+  const groupRef = useRef()
+  const { nodes, materials } = useGLTF('models/game_bar_target_arrow.glb')
 
-    const targetref = useRef();
-    const {scene} = useGLTF('https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/target-stand/model.gltf');
+  // stable random rotation speed
+  const rotationSpeed = useRef({
+    x: (Math.random() * 0.3 + 0.15) * (Math.random() > 0.5 ? 1 : -1),
+    y: (Math.random() * 0.3 + 0.15) * (Math.random() > 0.5 ? 1 : -1),
+    z: (Math.random() * 0.3 + 0.15) * (Math.random() > 0.5 ? 1 : -1),
+  })
 
-    useGSAP(()=>{
-        gsap.to(targetref.current.position,{
-            y:targetref.current.position.y+0.5,
-            duration:1,
-            repeat:-1,
-            yoyo:true
-        })
-    },[])
+  useFrame(() => {
+    if (!groupRef.current) return
+    groupRef.current.rotation.x += rotationSpeed.current.x * 0.01
+    groupRef.current.rotation.y += rotationSpeed.current.y * 0.01
+    groupRef.current.rotation.z += rotationSpeed.current.z * 0.01
+  })
+
   return (
-    <mesh {...props} ref={targetref} scale={1.5} rotation={[0,Math.PI/5,0]}>
-        <primitive object={scene}/>
-    </mesh>
+    <group ref={groupRef} {...props} dispose={null}>
+      <group scale={0.01}>
+        <group
+          position={[7.224, 0, 0]}
+          rotation={[-Math.PI / 2, 0, 0]}
+          scale={100}
+        >
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cylinder_arrow_red_0.geometry}
+            material={materials.arrow_red}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cylinder_target_white_0.geometry}
+            material={materials.target_white}
+          />
+        </group>
+
+        <group
+          position={[101.754, 0.021, -0.037]}
+          rotation={[-Math.PI, Math.PI / 2, 0]}
+          scale={130.856}
+        >
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cylinder001_arrow_red_0.geometry}
+            material={materials.arrow_red}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cylinder001_Gold_0.geometry}
+            material={materials.Gold}
+          />
+          <mesh
+            castShadow
+            receiveShadow
+            geometry={nodes.Cylinder001_Material002_0.geometry}
+            material={materials['Material.002']}
+          />
+        </group>
+      </group>
+    </group>
   )
 }
 
-export default Target
+useGLTF.preload('models/game_bar_target_arrow.glb')
