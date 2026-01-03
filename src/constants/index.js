@@ -101,7 +101,7 @@ export const navLinks = [
       desc: 'ZonKart is an online shopping platform built with React.js, Tailwind CSS, Framer Motion, React Router, Redux, and Google Firebase, offering a fast, secure, and dynamic user experience.',
       subdesc:
         'ZonKart allows users to explore products, manage their cart, and place orders easily. It uses Firebase for authentication and Framer Motion adds smooth animations for a modern feel.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+      href: 'https://zonkart.netlify.app/',
       texture: '/textures/project/project3.mp4',
       logo: 'assets/project-logo3.png',
       logoStyle: {
