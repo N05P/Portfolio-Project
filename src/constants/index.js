@@ -97,13 +97,12 @@ export const navLinks = [
       ],
     },
     {
-      title: 'ZonKart-Online Market',
-      desc: 'ZonKart is an online shopping platform built with React.js, Tailwind CSS, Framer Motion, React Router, Redux, and Google Firebase, offering a fast, secure, and dynamic user experience.',
-      subdesc:
-        'ZonKart allows users to explore products, manage their cart, and place orders easily. It uses Firebase for authentication and Framer Motion adds smooth animations for a modern feel.',
-      href: 'https://zonkart.netlify.app/',
+      title: 'Wanderlust - Full Stack Market Place',
+      desc: 'Developed an Airbnb-style marketplace using Node.js and EJS, featuring full CRUD functionality and cloud storage via MongoDB Atlas. Integrated secure Authentication and Authorization for listing management and successfully deployed the live application on Render via GitHub.',
+      subdesc:"Wanderlust allows users to explore available listings and host their own properties through a custom marketplace interface. It utilizes MongoDB Atlas for cloud-based data persistence and implements secure authentication and authorization logic to manage property ownership effectively.",
+      href: 'https://wanderlust-wg6i.onrender.com/listings',
       texture: '/textures/project/project3.mp4',
-      logo: 'assets/project-logo3.png',
+      logo: 'assets/favicon.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -115,23 +114,23 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Express.js',
+          path: '/assets/Express.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'MongoDB',
+          path: 'assets/Mongodb.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
+          name: 'Javascript',
           path: 'assets/javascript.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: 'assets/framer.png',
+          name: 'Node.js',
+          path: 'assets/Node.png',
         },
       ],
     },
