@@ -30,7 +30,7 @@ const Navbar = () => {
         aria-label='Toggle Menu'
       >
         <img
-          src={isOpen ? "src/assets/close.svg" : "src/assets/menu.svg"}
+          src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}
           alt="toggle"
           className='w-6 h-6'
         />
